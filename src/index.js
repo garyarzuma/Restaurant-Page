@@ -11,9 +11,10 @@ const index = (() => {
     const updateTab = ((e) => {
         const clickedTab = e.target.className;
         
-        clearTabContent();
+        
 
         if (clickedTab !== currentTab){
+            clearTabContent();
             switch(clickedTab){
                 case "tab1Div": loadHomeTab();
                                 currentTab = "tab1Div";

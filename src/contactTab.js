@@ -3,7 +3,7 @@ const loadContactTab = (() => {
    contactTabDiv.className = "contactTabContent";
    document.querySelector(".tabContentDiv").appendChild(contactTabDiv)
 
-   contactTabDiv.textContent = "Literally just go anywhere";
+   contactTabDiv.textContent = "Literally just go anywhere :)";
    
 });
 
