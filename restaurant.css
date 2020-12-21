@@ -10,6 +10,7 @@
 .tab1Div:hover, .tab2Div:hover, .tab3Div:hover{
     border-bottom: 3px solid  rgb(255, 255, 255);
     font-family: cursive;
+    cursor: pointer;
 }
 
 .homeTabContent{
